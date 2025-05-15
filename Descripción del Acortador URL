@@ -1,0 +1,46 @@
+ 🔗 URL Shortener - MERN Stack
+
+Este es un proyecto de **acortador de URLs** desarrollado con el stack **MERN** (MongoDB, Express, React y Node.js). Permite a los usuarios generar enlaces cortos que redirigen a URLs largas de forma rápida y sencilla.
+
+## 🚀 Tecnologías
+
+- 🗄️ **MongoDB Atlas** – Base de datos NoSQL en la nube.
+- ⚙️ **Express.js** – Framework backend para Node.js.
+- 🧠 **React** – Librería de frontend para interfaces reactivas.
+- 🌐 **Node.js** – Entorno de ejecución para JavaScript en el backend.
+
+## ✨ Funcionalidades
+
+- Acortamiento de URLs automático y personalizado.
+- Redirección instantánea desde la URL corta.
+- Validación de URLs.
+- Historial de URLs (opcional).
+- UI responsive e intuitiva.
+
+## 📦 Instalación y ejecución local
+
+### Requisitos previos
+
+- Node.js y npm
+- MongoDB Atlas (crear una base de datos y obtener una URI de conexión)
+
+### Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/url-shortener-mern.git
+cd url-shortener-mern
+
+### Configurar variables de entorno (.env)
+
+MONGO_URI=tu_uri_de_mongodb
+PORT=3000
+
+### Instalar dependencias y ejecutar
+
+```cd server
+npm install
+npm run dev
+
+```cd client
+npm install
+npm run dev
