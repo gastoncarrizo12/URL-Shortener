@@ -1,0 +1,167 @@
+/* src/App.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura completa de la ventana */
+}
+
+.container {
+  max-width: 600px;
+  width: 100%; /* Asegura que el contenedor no exceda el ancho de la pantalla */
+  margin: 20px; /* Espaciado en los lados */
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  color: #4A90E2;
+}
+
+.header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.url-input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #4A90E2;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.url-input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.submit-btn {
+  padding: 15px 20px;
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #007BFF;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e9f7ef;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+}
+
+.short-url {
+  display: block;
+  margin-top: 10px;
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.short-url:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .header h1 {
+      font-size: 2em;
+  }
+
+  .header p {
+      font-size: 1em;
+  }
+
+  .url-input, .submit-btn {
+      font-size: 0.9em;
+  }
+}
+
+/* src/App.css */
+
+/* ... otros estilos ... */
+
+.container {
+  max-width: 600px;
+  width: 100%; /* Asegura que el contenedor no exceda el ancho de la pantalla */
+  margin: 20px auto; /* Centra el contenedor horizontalmente */
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4A90E2;
+  color: white;
+  text-align: center;
+  font-size: 0.9em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.social-icons {
+  margin-top: 10px;
+}
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5em; /* Tamaño de los íconos */
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #007BFF; /* Color al pasar el mouse */
+}
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .header h1 {
+      font-size: 2em;
+  }
+
+  .header p {
+      font-size: 1em;
+  }
+
+  .url-input, .submit-btn {
+      font-size: 0.9em;
+  }
+
+  .footer {
+      font-size: 0.8em; /* Tamaño de fuente más pequeño en móviles */
+  }
+}
